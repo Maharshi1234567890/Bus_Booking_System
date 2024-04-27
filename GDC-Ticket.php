@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GDC Airways - Ticket</title>
+	<title>ABC Buses</title>
 	<link rel="stylesheet" type="text/css" href="GDC-TicketCSS.css">
 </head>
 <body>
@@ -15,17 +15,17 @@
 					<th>Passenger ID</th>
 					<th>Passenger Name</th>
 					<th>Gender</th>
-					<th>Flight ID</th>
+					<!-- <th>Flight ID</th> -->
 					<th>Class</th>
 					<th>Terminal</th>
 				</tr>
 			</thead>
 			<tbody>
 				<?php
-					$dbhost="localhost";
-					$dbuser="devang";
-					$dbpass="qwerty";
-					$db="gdcairways";
+					// $dbhost="localhost";
+					// $dbuser="devang";
+					// $dbpass="qwerty";
+					// $db="gdcairways";
 					$conn=mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 					if(!$conn)
 					{

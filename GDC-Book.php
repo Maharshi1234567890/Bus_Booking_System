@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>GDC Airways - Booking</title>
+	<title>ABC Buses</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="crossorigin="anonymous"></script>
@@ -15,7 +15,7 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="index.php" class="navbar-brand"><img src="4b5d99c4-2f06-45be-88b2-5e4bb39f9885.png" id="logo"> GDC AIRWAYS</a>
+				<a href="#" class="navbar-brand"><img src="LOGO BUS.png" id="logo"> ABC Buses</a>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 	        		<span class="sr-only">Toggle navigation</span>
 	        		<span class="icon-bar"></span>
@@ -25,9 +25,9 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"">
 				<ul class="nav navbar-nav">
-					<li><a href="index.php"><strong>Home</strong></a></li>
-					<li><a href="GDC-About.php"><strong>About</strong></a></li>
-					<li><a href="GDC-Contacts.php"><strong>Contacts</strong></a></li>
+					<li class="active"><a href="#"><strong>Home</strong></a></li>
+					<li><a href="ABC-About.php"><strong>About</strong></a></li>
+					<li><a href="ABC-Contacts.php"><strong>Contacts</strong></a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#" data-toggle="modal" data-target="#signup"><strong>Sign up </strong><i class="fas fa-user-plus"></i></a></li>
